@@ -11,21 +11,9 @@
     @vite('resources/css/app.css')
 </head>
 
-<body>
+<body class="position-relative min-h-full   ">
     @livewire('header')
-
-    <h1>Articles Here</h1>
-    <h1>Articles Here</h1>
-    <h1>Articles Here</h1>
-    <h1>Articles Here</h1>
-    <h1>Articles Here</h1>
-    <h1>Articles Here</h1>
-    <h1>Articles Here</h1>
-    <h1>Articles Here</h1>
-    <h1>Articles Here</h1>
-    <h1>Articles Here</h1>
-
-
+    @livewire('main')
     @livewire('footer')
 </body>
 

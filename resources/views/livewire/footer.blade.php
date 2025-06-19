@@ -1,6 +1,5 @@
-<footer
-    class="w-full bg-gradient-to-tr from-red-600 to-red-900 font-text text-lg text-white overflow-hidden items-center">
-    <div>
+<footer class="w-full bg-gradient-to-tr from-red-600 to-red-900 font-text text-lg text-white min-h-150 items-center position-absolute bottom-0">
+    <div class="w-full position-fixed bottom-0 left-0">
         <div class="text-center font-semibold p-3 max-lg:pl-1 max-lg:pr-1">
             <p>Follow Us.</p>
             <ul
