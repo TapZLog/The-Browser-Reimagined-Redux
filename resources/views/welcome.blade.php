@@ -13,6 +13,20 @@
 
 <body>
     @livewire('header')
+
+    <h1>Articles Here</h1>
+    <h1>Articles Here</h1>
+    <h1>Articles Here</h1>
+    <h1>Articles Here</h1>
+    <h1>Articles Here</h1>
+    <h1>Articles Here</h1>
+    <h1>Articles Here</h1>
+    <h1>Articles Here</h1>
+    <h1>Articles Here</h1>
+    <h1>Articles Here</h1>
+
+
+    @livewire('footer')
 </body>
 
 </html>

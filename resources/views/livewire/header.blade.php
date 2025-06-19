@@ -1,5 +1,5 @@
 <header
-    class="w-full bg-gradient-to-br from-red-900 to-red-600 font-main text-lg text-white overflow-hidden items-center">
+    class="w-full bg-gradient-to-tr from-red-600 to-red-900 font-text text-lg text-white overflow-hidden items-center">
     <div class="flex w-full text-center items-center"> <!-- Main 3 -->
 
         <div class="flex-1 text-white pl-8 pr-8 mt-2 text-left">
@@ -21,15 +21,15 @@
 
     <hr class="ml-5 mr-5 max-lg:hidden">
 
-    <div class="mt-4 list-none flex w-full mb-4 max-lg:hidden">
+    <div class="mt-4 mb-4 list-none flex w-full max-lg:hidden">
 
         <ul class="w-full text-center">
-            @include('livewire.includes.headerbutton')
-            @include('livewire.includes.headerbutton')
-            @include('livewire.includes.headerbutton')
-            @include('livewire.includes.headerbutton')
-            @include('livewire.includes.headerbutton')
-            @include('livewire.includes.headerbutton')
+            @include('livewire.header.headerbutton')
+            @include('livewire.header.headerbutton')
+            @include('livewire.header.headerbutton')
+            @include('livewire.header.headerbutton')
+            @include('livewire.header.headerbutton')
+            @include('livewire.header.headerbutton')
         </ul>
     </div>
 </header>
