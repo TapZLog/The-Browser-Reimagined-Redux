@@ -7,14 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Browser</title>
     <link rel="icon" href=".\assets\LOGO-AY-24-25\logowhite.png" type="image/png">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
     @vite('resources/css/app.css')
 </head>
 
-<body class="position-relative min-h-full">
-    @livewire('header')
-    @livewire('main')
-    @livewire('footer')
+<body>
+    @livewire('header-short')
+    @livewire('main-dashboard')
 </body>
-
 </html>

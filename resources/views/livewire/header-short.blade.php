@@ -14,10 +14,8 @@
         </div>
 
         <div class="flex-1 text-white pl-8 pr-8 mt-2 text-right">
-            <button"><img src=".\assets\icons\account.svg" class="max-sm:w-6 max-md:w-8 w-10"/></button>
+            <button><img src=".\assets\icons\account.svg" class="max-sm:w-6 max-md:w-8 w-10"/></button>
         </div>
 
     </div>
-
-    @include('livewire.home-page.header.snippets')
 </header>
