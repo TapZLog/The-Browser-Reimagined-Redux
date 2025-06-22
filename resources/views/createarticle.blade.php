@@ -14,6 +14,6 @@
 
 <body>
     @livewire('header-short')
-    {{-- @livewire('') --}}
+    @livewire('create-article')
 </body>
 </html>

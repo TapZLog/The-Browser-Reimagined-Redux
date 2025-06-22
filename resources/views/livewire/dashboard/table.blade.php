@@ -9,15 +9,7 @@
         <th class="border border-solid border-red-900 text-left p-2">Options</th>
     </tr>
 
-    @include('livewire.dashboard.table-row')
-    @include('livewire.dashboard.table-row')
-    @include('livewire.dashboard.table-row')
-    @include('livewire.dashboard.table-row')
-    @include('livewire.dashboard.table-row')
-    @include('livewire.dashboard.table-row')
-    @include('livewire.dashboard.table-row')
-    @include('livewire.dashboard.table-row')
-    @include('livewire.dashboard.table-row')
-    @include('livewire.dashboard.table-row')
-
+    @foreach ($articles as $article)
+        @include('livewire.dashboard.table-row')
+    @endforeach
 </table>

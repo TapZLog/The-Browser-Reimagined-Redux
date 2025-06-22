@@ -4,6 +4,10 @@
         <br>
         <div class="overflow-hidden">
             @include('livewire.dashboard.table')
+
+            @if (@session('success'))
+                <span>{{ $message }}</span>
+            @endif
         </div>
     </div>
 </div>

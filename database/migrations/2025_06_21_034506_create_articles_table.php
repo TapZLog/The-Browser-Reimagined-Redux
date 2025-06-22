@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('headline');
-            $table->dateTime('created');
-            $table->dateTime('edited');
-            $table->string('author');
-            $table->string('editor');
+            $table->dateTime('created')->useCurrent();
+            $table->dateTime('edited')->useCurrent();
+            $table->string('author')->default("Anonymous");
+            $table->string('editor')->default("Anonymous");
         });
     }
 
